@@ -1,0 +1,2 @@
+export const SET_LIST_AUTHOR = 'SET_LIST_AUTHOR';
+export const SELECT_AUTHOR = 'SELECT_AUTHOR';

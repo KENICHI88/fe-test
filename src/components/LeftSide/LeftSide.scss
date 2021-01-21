@@ -1,0 +1,54 @@
+.left-side {
+  background-color: rgba(0, 0, 0, .2);
+  width: 200px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  text-align: center;
+}
+
+.logo {
+  margin-top: 85px;
+  margin-bottom: 85px;
+  max-width: 100%;
+}
+
+.author {
+  &-item {
+    color: #fff;
+    padding-top: 4px;
+    padding-right: 4px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    
+    font-size: 14px;
+    cursor: pointer;
+    
+    &.active {
+      background-color: rgba(255, 255, 255, .1);
+      font-size: 24px;
+      color: #3db5d7;
+    }
+    &.is-colleagues {
+      color: #3db5d7;
+    }
+  }
+}
+
+
+@media (min-width: 768px) {
+  .left-side {
+    width: 376px;
+  }
+    
+  .author {
+    &-item {
+      font-size: 16px;
+      &.active {
+        font-size: 32px;
+      }
+    }
+  }
+
+}
